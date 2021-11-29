@@ -1,0 +1,26 @@
+[
+    {
+        "img":"../assets/images/destination-1.jpg",
+        "alt":"Destination 1",
+        "name":"Bali",
+        "button":"View Destination"
+    },
+    {
+        "img":"../assets/images/destination-2.jpg",
+        "alt":"Destination 2",
+        "name":"Kilifi",
+        "button":"View Destination"
+    },
+    {
+        "img":"../assets/images/destination-3.jpg",
+        "alt":"Destination 3",
+        "name":"Mombasa",
+        "button":"View Destination"
+    },
+    {
+        "img":"../assets/images/destination-4.jpg",
+        "alt":"Destination 4",
+        "name":"Italy",
+        "button":"View Destination"
+    }
+]

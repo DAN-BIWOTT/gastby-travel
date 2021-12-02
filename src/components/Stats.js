@@ -24,11 +24,12 @@ const Stats = () => {
 export default Stats
 
 const StatsContainer = styled.div`
+  padding-top: 4rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem calc((100vw-1300px)/2);
+  padding: 4rem calc((100vw-1300px) / 2);
 `
 
 const Heading = styled.h1`
@@ -68,5 +69,5 @@ const Title = styled.p`
 `
 
 const Description = styled.p`
-font-style: italic;
+  font-style: italic;
 `

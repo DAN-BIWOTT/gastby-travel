@@ -1,13 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
+import layout from "../components/layout"
+import seo from "../components/seo"
 
 const UsingSSR = ({ serverData }) => {
   return (
-    <Layout>
-      <Seo title="Using SSR" />
+    <layout>
+      <seo title="Using SSR" />
       <h1>SSR page</h1>
       <img
         style={{ width: "300px" }}
@@ -23,7 +23,7 @@ const UsingSSR = ({ serverData }) => {
         .
       </p>
       <Link to="/">Go back to the homepage</Link>
-    </Layout>
+    </layout>
   )
 }
 
